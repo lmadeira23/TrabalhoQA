@@ -1,0 +1,17 @@
+{
+    "baseUrl": "https://opentdb.com",
+    "testFiles": "**/*.feature",
+    "defaultCommandTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "reporter": "mochawesome",
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "scrollBehavior": false,
+    "reporterOptions": {
+        "reportDir": "mochawesome-report",
+        "overwrite": true,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+    }
+}
